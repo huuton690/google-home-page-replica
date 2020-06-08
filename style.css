@@ -1,0 +1,231 @@
+*{
+
+    box-sizing: border-box;
+  
+    padding: 0;
+  
+    margin: 0;
+  
+  }
+  
+  header{
+  
+    padding: 20px;
+  
+    width: 100%;
+  
+    display:flex;
+  
+    justify-content: center;
+  
+  }
+  
+  nav{
+  
+    position: absolute;
+  
+    top: 0;
+  
+    width: 100%;
+  
+  }
+  
+  #left-nav{
+  
+    margin: 20px auto 0 0;
+  
+    display:flex;
+  
+    justify-content: flex-start;
+  
+  }
+  
+  #right-nav{
+  
+    margin-top: 20px;
+  
+    display:flex;
+  
+    justify-content: flex-end;
+  
+  }
+  
+  ul{
+  
+    list-style: none;
+  
+    width: 400px;
+  
+    display:flex;
+  
+    justify-content: space-evenly;
+  
+    align-items: center;
+  
+  }
+  
+  a{
+  
+    color: black;
+  
+    text-decoration: none;
+  
+  }
+  
+  #sign-in{
+  
+    color: white;
+  
+    font-weight:bold;
+  
+    border: none;
+  
+    width: 100px;
+  
+    height: 30px;
+  
+    background: blue;
+  
+    margin-right: 10px;
+  
+  }
+  
+  #container{
+  
+    position: relative;
+  
+    right: 18px;
+  
+    top: 8px;
+  
+    display: grid;
+  
+    grid-template-columns: 5px 5px 5px;
+  
+    grid-template-rows: 5px 5px 5px;
+  
+    gap: 2px 2px;
+  
+  }
+  
+  .item-box{
+  
+    background: black;
+  
+  }
+  
+  section{
+  
+    margin-top: 50px;
+  
+    text-align: center;
+  
+  }
+  
+  #search-box{
+  
+    width: 400px;
+  
+    height: 40px;
+  
+    border-radius: 20px;
+  
+    border: solid 1px black;
+  
+    opacity: 0.2;
+  
+  }
+  
+  #search-button{
+  
+    width: 150px;
+  
+    height: 30px;
+  
+    border: none;
+  
+    margin: 0 40px;
+  
+  }
+  
+  #search-button:hover{
+  
+    width: 150px;
+  
+    height: 30px;
+  
+    border: solid 1px black;
+  
+    margin: 0 40px;
+  
+  }
+  
+  #random-search-button{
+  
+    width: 150px;
+  
+    height: 30px;
+  
+    border: none;
+  
+    margin: 10px 40px;
+  
+  }
+  
+  #random-search-button:hover{
+  
+    width: 150px;
+  
+    height: 30px;
+  
+    border: 1px solid black;
+  
+    margin: 10px 40px;
+  
+  }
+  
+  form{
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    flex-direction: column;
+  
+    height: 100px;
+  
+  }
+  
+  footer{
+  
+    height: 45px;
+  
+    width: 100%;
+  
+    border-top: 1px solid #e4e4e4;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    position: absolute;
+  
+    bottom: 0;
+  
+    background: #f2f2f2;
+  
+  }
+  
+  #left-footer{
+  
+    display:flex;
+  
+    width: 100%;
+  
+    flex-direction: flex-start;
+  
+  }
+  
+  
